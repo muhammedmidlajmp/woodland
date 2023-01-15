@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woodland</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body onload="myFunction">
+    <header class="bg-success">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand pe-sm-5" href="#"><img src="images/Woodland-Logo-removebg-preview.png" alt="" width="150"></a>
+              <button  id="toggle-navigation collapsed" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                ]
+                <span class="material-symbols-outlined text-white fw-bold ">
+                  drag_indicator
+                  </span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item  dropdown ">
+                    <a class="nav-link dropdown-toggle  active text-white" aria-current="page" href="#" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false" >Men</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item text-success" href="#">Footwear</a></li>
+                        <li><hr class="dropdown-divider text-success"></li>
+                        <li><a class="dropdown-item text-success" href="#">Apparel</a></li>
+                        <li><hr class="dropdown-divider text-success"></li>
+                        <li><a class="dropdown-item text-success" href="#">Accessories</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">Women</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item text-success" href="#">Footwear</a></li>
+                        <li><hr class="dropdown-divider text-success"></li>
+                        <li><a class="dropdown-item text-success" href="#">Apparel</a></li>
+                        <li><hr class="dropdown-divider text-success"></li>
+                        <li><a class="dropdown-item text-success" href="#">Accessories</a></li>
+                      </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Lookbook
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item text-white" href="#"><img src="images/lookbook-dropdownimg.jpg" alt="" width="500"></a></li>                     
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">Labs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">StreetWear</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <img src="images/cart3.svg" alt="" width="50" class="me-3">
+                  <img src="images/person.svg" alt="" width="30" height="30">
+                </form>
+              </div>
+            </div>
+          </nav>
+   </header>
+   
+   
+
+
+   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/carousal-img1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/carousal-img2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+         
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/carousal-img3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+         
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/carousal-img4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+         >
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+
+  <div class=" container-fluid mt-1">
+   <div class="row">
+    <div class="col-lg-3 col-md-6 col-sm-12 bg-dark text-center pt-5 ps-5 " style="height:230px ;">
+        <img src="images/cartoon-img1.png" alt="">
+            <h4  class="text-white text-center">Men</h4>
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 text-center  pt-5 bg-dark">
+        <img src="images/cartoon-img2.png" alt="">
+        <h4  class="text-white text-center">Women</h4>
+
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 text-center  pt-5 bg-dark">
+        <img src="images/cartoon-img3.png" alt="">
+        <h4  class="text-white text-center">Apperals</h4>
+
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 text-center   pt-5 bg-dark">
+        <img src="images/cartoon-img4.png" alt="">
+        <h4  class="text-white text-center">Accessories</h4>
+
+    </div>
+   </div>
+
+  </div>
+  <div class="container-fluid p-0">
+    <div class="row">
+        <img  src="images/scrn-img1.1.png" alt="" >
+               
+    </div>
+  </div>
+  <div class="shaz container-fluid p-0">
+    <div class="row">
+      <div class="col-6 p-0 m-0">
+        <img style="width: 100%;" class="img-fluid" src="images/scrn-img2.png" alt="">
+      </div>
+      <div class="col-6 p-0 m-0"> 
+        <img class="img-fluid" src="images/scrn-img3.png" alt=""  style="width: 100%;">
+      </div>
+    </div>
+      
+  </div>
+  <div class="container-fluid p-0">
+    <div class="row">
+        <img  src="images/scrn-img4.png" alt="" >
+               
+    </div>
+  </div>
+  <div class="container-fluid p-0">
+    <div class="row">
+        <img  src="images/scrn-img5.png" alt="" >
+               
+    </div>
+  </div>
+  <div class="container-fluid p-0">
+    <div class="row">
+        <img  src="images/scrn-img6.png" alt="" >
+               
+    </div>
+  </div>
+  <div class=" footer container-fluid">
+    <div class="row">
+      <div class="col-lg-12  " >
+        <h2 class="woodlanders pe-5 pt-4">WOODLANDERS</h2>
+        <p class="woodlanders-1">add the <b>@Woodlandexploremore</b></p>
+        <p class="woodlanders-1">mention to your photo to appear on our website.</p>
+      </div>
+    </div>
+  </div>
+   
+   <div class="">
+    <center><div class="line"></div></center>
+   <div class="footer-2 container-fluid pe-5  col-12">
+    <div class=" c-foot row ">
+      <div class=" c-footcol-xl-4 col-lg-4 col-md-6 col-sm-4 pe-sm-0 ">
+        <ul>
+          <li>
+            <br><h3 style="color: white;">worldwoodland</h3><br>
+            <dt>About Us</dt>
+            <dt>Proplanet</dt>
+            <dt>Affiliates</dt>
+            <dt>Store Locator</dt>
+            <dt>Careers</dt>
+            <dt>Faqs</dt>
+            <dt>Terms & Condition</dt>
+            <dt>Authorised Seller</dt>
+            <dt>Contact Us</dt>
+            <dt>Research Lab</dt>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-4 pe-sm-0 ">
+        <ul>
+          <li>
+            <br><h3 class="" style="color: white;">Outdoor</h3><br>
+            <dt>Trekking Poles</dt>
+            <dt>Bluetooth Devices</dt>
+            <dt>Umbrellas</dt>
+            <dt>iphone cover</dt>
+            <dt>Outdoor Light</dt>
+            <dt>Solar Chargers</dt>
+            <dt>Nuts & Bars</dt>
+            <dt>Adventures Products</dt>
+            <dt>Gloves</dt>
+            <a >See More...</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col col-sm-4 ">
+        <div class="row">
+          <div class="col col-sm-4 k">
+            <ul>
+              <li>
+                <br><h3 style="color: white;">Men</h3><br>
+                <dt>Footwear</dt>
+                <dt>Apperals</dt>
+                <dt>Accessories</dt>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul>
+              <li>
+                <br><h3 style="color: white;">Women</h3><br>
+                <dt>Footwear</dt>
+                <dt>Apperals</dt>
+                <dt>Accessories</dt>
+
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col pe-5">
+            <p><h4 class="text-white">Should be Stay Updated on the <br>latest trends from Woodland</h4></p><br>
+            <div class="input-group mb-3">
+              <input type="email" class="form-control" placeholder="Enter Your Email" aria-label="Recipient's email" aria-describedby="button-addon2">
+              <button   class="btn btn-outline-secondary " type="button" id="button-addon2">Go</button>
+            </div>
+          </div>
+        </div>
+       
+     
+      </div>
+
+
+      </div>
+    </div>
+   </div>
+
+
+
+   
+  
+  <!-- social media -->
+
+  <div  class=" footer-3 container-fluid  ">
+    <div class="row d-block   text-center mb-sm-0 d-flex justify-content-center">
+      <div class="col-sm-6 col-md-4 col-lg-3 text-center  d-flex justify-content-center justify-content-sm-between ">
+        <a class="navbar-brand" href="https://www.instagram.com/cafecoffeeday/" target="_blank" rel="noopener"> <img
+            src="images/twitter.png" alt="instagram" class="pic"> </a>
+        <a class="navbar-brand " href="https://www.youtube.com/user/cafecoffeeday" target="_blank" rel="noopener"> <img
+            src="images/facebook.png" alt="linkdin" class="pic"> </a>
+        <a class="navbar-brand " href="https://twitter.com/CafeCoffeeDay" target="_blank" rel="noopener"> <img
+            src="images/insta.png" alt="twitter" class="pic"> </a>
+        <a class="navbar-brand" href="https://www.facebook.com/cafecoffeeday" target="_blank" rel="noopener"> <img
+            src="images/youtube.1.png" alt="facebook" class="pic"> </a>
+      </div>
+      
+
+      </div> -->
+    </div>
+  </div>
+  
+
+
+<script>
+  function myFunction(){
+    alert("WELCOME... press oky to continue")
+  }
+</script>
+
+
+
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+          </html>

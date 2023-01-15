@@ -1,0 +1,88 @@
+
+
+
+body{
+    margin: 0;
+}
+html {
+    overflow-y: scroll; 
+  }
+#toggle-navigation{
+    color: white;
+}
+hr{
+    height: 1px;
+}
+
+*{
+    padding: 0;
+    margin:0;
+    overflow-x: hidden;
+}
+.shaz{
+    overflow: hidden;
+}
+.footer{
+    background-color: black;
+    height: 150px;
+    line-height: 70px;
+}
+.woodlanders{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    padding-left: 5%;
+    padding-top: 4px;
+   
+   
+}
+.woodlanders-1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 3px;
+    padding-left: 5%;
+
+}
+.line{
+    width: 85%;
+    background-color: white;
+    height: 1px;
+}
+.footer-2{
+    /* height: 420px; */
+    background-color: black;
+    color:rgb(247, 239, 239);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+a{
+    text-decoration:underline none;
+}
+.bg{
+    height: 423px;
+    background-color: black;
+    width: 100;
+    border-bottom: rgb(112, 108, 108);
+}
+ul{
+    list-style: none;
+}
+.footer-3{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    border-top: 1px solid white ;
+}
+.pic{
+   width: 30px;
+}
+.copyright{
+    color: white;
+    font-size: 20px;
+    
+
+}
+
+.c-foot{
+    background-color: black;
+}
